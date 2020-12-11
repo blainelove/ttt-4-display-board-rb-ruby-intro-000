@@ -3,11 +3,11 @@
 board = [" "," "," "," "," "," "," "," "," "]
 
 def display_board(board)
-  puts "   |   |   "
+  puts " 0 | x | 0 "
   puts "-----------"
-  puts "   |   |   "
+  puts " x | x | 0 "
   puts "-----------"
-  puts "   |   |   "
+  puts " 0 | 0 | x "
 end
 
 display_board(board)
